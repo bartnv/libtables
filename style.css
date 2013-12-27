@@ -1,0 +1,28 @@
+TABLE,TD { border: solid black 1px; border-collapse: collapse; }
+TD { padding: 5px; }
+P#menu { text-align: center; }
+TD.head { font-weight: bold; }
+TD.sum { font-weight: bold; }
+TD.tar { text-align: right; }
+TD.limit { width: 250px; }
+TD.fin { text-align: right; }
+TD.fin::before { content: "€\a0"; text-align: left; float: left; }
+TD.dist { text-align: right; }
+TD.dist::after { content: " km"; }
+.required_set1 { background-color: rgb(255,220,220); }
+DIV.buttongrid { float: right; width: 480px; }
+DIV.buttongrid_tabbar { padding-top: 15px; padding-bottom: 9px; padding-right: 10px; }
+DIV.buttongrid_panels { position: relative; }
+DIV.buttongrid_panel { position: absolute; left: 0px; top: 0px; border: solid black 1px; background-color: white; width: 480px; height: 320px; }
+INPUT.buttongrid_button { width: 120px; height: 80px; border: solid white 2px; background-color: rgb(80,80,255); color: white; }
+INPUT.buttongrid_button:active { width: 120px; height: 80px; border: solid red 2px; background-color: black; color: yellow; }
+SPAN.buttongrid_tab { border: solid black 1px; border-bottom: none; padding: 10px; margin-left: 10px; }
+SPAN.buttongrid_topleft { position: absolute; top: 2px; left: 5px; }
+SPAN.buttongrid_topright { position: absolute; top: 2px; right: 5px; }
+SPAN.buttongrid_bottomleft { position: absolute; bottom: 1px; left: 5px; }
+SPAN.buttongrid_bottomright { position: absolute; bottom: 1px; right: 5px; }
+DIV.numpad { position: relative; clear: right; float: right; top: 330px; }
+INPUT.numpad_button { width: 80px; height: 80px; }
+DIV#numpad_display { display: inline-block; vertical-align: top; text-align: center; line-height: 96px; margin: 1px; width: 76px; height: 76px; border: solid black 1px; }
+DIV#overlay {position: absolute; width: 800px; height: 600px; background-color: #CCCCCC; border-radius: 10px; z-index: 10000}
+IMG#overlay_close {float: right; position: relative; top: -25px; left: 25px;  }
