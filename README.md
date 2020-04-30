@@ -1,6 +1,8 @@
 libtables
 =========
 
+**Please note: this is libtables version 1 and no longer being maintained -- new projects are strongly encouraged to start using [libtables 3](https://github.com/bartnv/libtables3/)**
+
 A PHP-toolkit for web-based database applications
 
 This toolkit is intended to help developers who have a firm grasp of SQL to quickly develop web-applications by getting rid of writing the tedious HTML FORM and TABLE code. Instead, PHP functions are called with the required queries, their output modified by declarations in the form of PHP arrays. The main functions are lt_input(), which generates a form to INSERT one or more rows into the database; and lt_display(), which generates a table to show the data returned from a SELECT query. The idea is that the programmer produces an index.php which uses the toolkit functions along with some basic HTML/PHP to create the application. The most basic form of such an index.php is shown here:
